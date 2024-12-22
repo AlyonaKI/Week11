@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shoppingCart.css" />
+  </head>
+  <body>
+    <h1>Корзина</h1>
+    <div class="cart">
+      <div class="cart__item">
+        <div class="cart__descripton">
+          <img src="images/cogty.jpg" alt="Когтеточка" />
+          <div>
+            <h4>Когтеточка</h4>
+            <p>Цвет: белый</p>
+            <p>Размер: M</p>
+            <p>Количество: 1</p>
+          </div>
+        </div>
+        <div class="cart__sum">
+          <div id="cartSumItem1">9999</div>
+          <div>руб.</div>
+        </div>
+      </div>
+      <div class="cart__item">
+        <div class="cart__descripton">
+          <img src="images/lezhanka.jpg" alt="Лежанка" />
+          <div>
+            <h4>Лежанка</h4>
+            <p>Цвет: белый</p>
+            <p>Размер: M</p>
+            <p>Количество: 1</p>
+          </div>
+        </div>
+        <div class="cart__sum">
+          <div id="cartSumItem2">6390</div>
+          <div>руб.</div>
+        </div>
+      </div>
+      <div class="cart__item">
+        <div class="cart__descripton">
+          <img src="images/miska.jpg" alt="Миска" />
+          <div>
+            <h4>Миска</h4>
+            <p>Цвет: белый</p>
+            <p>Размер: M</p>
+            <p>Количество: 1</p>
+          </div>
+        </div>
+        <div class="cart__sum">
+          <div id="cartSumItem3">11290</div>
+          <div>руб.</div>
+        </div>
+      </div>
+      <div class="cart__item">
+        <div class="cart__descripton">
+          <img src="images/toy.jpg" alt="Игрушка" />
+          <div>
+            <h4>Игрушка</h4>
+            <p>Цвет: белый</p>
+            <p>Размер: M</p>
+            <p>Количество: 1</p>
+          </div>
+        </div>
+        <div class="cart__sum">
+          <div id="cartSumItem4">2550</div>
+          <div>руб.</div>
+        </div>
+      </div>
+      <div class="cart__result">
+        <button id="discountBtn">Использовать купон на 20%</button>
+        <div class="cart__total">
+          <div>Итого:</div>
+            <div id="totalCartSum"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="shoppingCart.js"></script>
+  </body>
+</html>
